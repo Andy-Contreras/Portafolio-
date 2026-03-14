@@ -1,0 +1,56 @@
+:root {
+  --bg: #0a0a0f;
+  --surface: #111118;
+  --card: #16161f;
+  --border: rgba(255, 255, 255, 0.07);
+  --accent: #00e5a0;
+  --accent2: #7c6aff;
+  --text: #e8e8f0;
+  --muted: #6b6b80;
+  --glow: rgba(0, 229, 160, 0.15);
+}
+.navbar {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5%;
+  background: rgba(10, 10, 15, 0.85);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+}
+
+.titulo {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+  color: white;
+}
+.titulo span {
+  color:var(--accent);
+}
+
+.links{
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.links a{
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.88rem; 
+  font-weight: 500;   
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.links a:hover{
+  color: var(--accent)
+}

@@ -1,0 +1,108 @@
+:root {
+  --bg: #0a0a0f;
+  --surface: #111118;
+  --card: #16161f;
+  --border: rgba(255, 255, 255, 0.07);
+  --accent: #00e5a0;
+  --accent2: #7c6aff;
+  --text: #e8e8f0;
+  --muted: #6b6b80;
+  --glow: rgba(0, 229, 160, 0.15);
+}
+.hero {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  padding: 0 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+.hero h1 {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 .name {
+  color: var(--accent);
+}
+
+.hero h1 .line2 {
+  display: block;
+  color: var(--muted);
+  font-size: 0.6em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 0.3rem;
+}
+
+.hero-descrip {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 520px;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+  animation: fadeUp 0.7s 0.2s ease both;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  animation: fadeUp 0.7s 0.3s ease both;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 2rem;
+  background: var(--accent);
+  color: #0a0a0f;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  border-radius: 8px;
+  text-decoration: none;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  box-shadow: 0 0 30px rgba(0, 229, 160, 0.25);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 50px rgba(0, 229, 160, 0.4);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 2rem;
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-weight: 500;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition:
+    border-color 0.2s,
+    color 0.2s,
+    background 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(0, 229, 160, 0.05);
+}
