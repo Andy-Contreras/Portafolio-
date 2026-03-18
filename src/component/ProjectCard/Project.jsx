@@ -43,7 +43,9 @@ export function Projects() {
           ref={card1Ref}
           className={`${styles["project-card"]} ${styles.reveal}`}
         >
-          <div className={`${styles["project-thumb"]} ${styles.green}`}>🏢</div>
+          <div className={`${styles["project-thumb"]} ${styles.green}`}>
+            <img src="./Alicuota.png" alt="Sistema de Alicuota" />
+          </div>
           <div className={styles["project-body"]}>
             <div className={styles["project-tags"]}>
               <span className={styles.tag}>Tesis</span>
@@ -69,7 +71,7 @@ export function Projects() {
           className={`${styles["project-card"]} ${styles.reveal}`}
         >
           <div className={`${styles["project-thumb"]} ${styles.purple}`}>
-            🎧
+            <img src="./principal.png" alt="Audiolibro" />
           </div>
           <div className={styles["project-body"]}>
             <div className={styles["project-tags"]}>
