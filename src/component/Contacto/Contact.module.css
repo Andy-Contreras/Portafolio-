@@ -40,7 +40,7 @@
 }
 
 .contact-desc {
-  color: var(--muted);
+  color: #ffffff;
   margin-top: 1rem;
   font-size: 1rem;
   line-height: 1.7;
@@ -73,7 +73,7 @@
 }
 
 .contact-subtitle {
-  color: var(--muted);
+  color: #ffffff;
   font-size: 0.95rem;
 }
 
@@ -105,7 +105,7 @@
 
 .contact-item:hover {
   border-color: var(--accent);
-  color: var(--accent);
+  color: #ffffff;
   background: rgba(0, 229, 160, 0.05);
   transform: translateY(-2px);
 }

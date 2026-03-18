@@ -46,7 +46,7 @@
 }
 
 .section-sub {
-  color: var(--muted);
+  color: #ffffff;
   max-width: 500px;
   margin-bottom: 4rem;
   font-size: 1rem;
@@ -111,7 +111,7 @@
 
 .skill-desc {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: #ffffff;
   line-height: 1.6;
 }
 

@@ -33,7 +33,7 @@
 }
 
 .section-sub {
-  color: var(--muted);
+  color: #ffffff;
   max-width: 500px;
   margin-bottom: 4rem;
   font-size: 1rem;
@@ -140,7 +140,7 @@
 
 .project-desc {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: #ffffff;
   line-height: 1.7;
   margin-bottom: 1.5rem;
 }
