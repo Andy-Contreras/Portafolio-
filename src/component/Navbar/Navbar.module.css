@@ -43,7 +43,7 @@
 
 .links a{
   text-decoration: none;
-  color: var(--muted);
+  color: #ffffff;
   font-size: 0.88rem; 
   font-weight: 500;   
   letter-spacing: 0.05em;
