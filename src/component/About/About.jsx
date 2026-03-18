@@ -18,7 +18,7 @@ export function About() {
               APIs y soluciones en proyectos propios y freelance.
             </p>
             <p>
-              TActualmente estoy ampliando mis habilidades en frontend con
+              Actualmente estoy ampliando mis habilidades en frontend con
               React, con el objetivo de consolidarme como desarrollador
               fullstack.
             </p>
