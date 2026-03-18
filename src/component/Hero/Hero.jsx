@@ -12,9 +12,10 @@ export function Hero() {
             </span>
           </h1>
           <p className={styles["hero-descrip"]}>
-            Recién graduado en 2025, especializado en desarrollo web con Python,
-            Django y React. Apasionado por construir soluciones digitales que
-            resuelvan problemas reales.
+            Ingeniero de Software graduado en 2025, con enfoque en desarrollo
+            web utilizando Python, Django y React. He desarrollado soluciones
+            digitales orientadas a resolver problemas reales, priorizando
+            eficiencia, escalabilidad y buenas prácticas.
           </p>
         </div>
         <div className={styles["hero-ctas"]}>
