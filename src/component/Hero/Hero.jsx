@@ -8,7 +8,7 @@ export function Hero() {
             Hola, soy <br />
             <span className={styles.name}>Andy Contreras</span> <br />
             <span className={styles.line2}>
-              Ingerniero de Software - Web Developer
+              Ingeniero de Software - Web Developer
             </span>
           </h1>
           <p className={styles["hero-descrip"]}>

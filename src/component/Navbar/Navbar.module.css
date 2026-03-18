@@ -32,25 +32,33 @@
   color: white;
 }
 .titulo span {
-  color:var(--accent);
+  color: var(--accent);
 }
 
-.links{
+.links {
   display: flex;
   gap: 2.5rem;
   list-style: none;
 }
 
-.links a{
+.links a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 0.88rem; 
-  font-weight: 500;   
+  font-size: 0.88rem;
+  font-weight: 500;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   transition: color 0.2s;
 }
 
-.links a:hover{
-  color: var(--accent)
+.links a:hover {
+  color: var(--accent);
+}
+
+.links ul {
+  display: flex; /* Los pone en línea horizontal */
+  list-style: none; /* Quita los puntos de la lista */
+  gap: 20px; /* El espacio entre ellos */
+  margin: 0;
+  padding: 0;
 }
